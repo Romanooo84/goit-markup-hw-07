@@ -419,6 +419,11 @@ h1, h2, h3, h4, h5, h6, p, a {
     padding-bottom: 24px;
 }
 
+.hamurger-button{
+    border:none;
+    background-color: #fff;
+}
+
 menu{
     margin: 0;
 }
