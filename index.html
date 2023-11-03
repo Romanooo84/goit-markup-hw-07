@@ -35,10 +35,14 @@
                     </ul>
                 </address>
                 
-                <menu>
+                <menu class="hamburger-menu">
+                    <button type="button" class="hamurger-button menu-toggle js-open-menu "
+                    aria-expanded="false"
+                    aria-controls="mobile-menu">
                     <svg width="32" height="22">
-                        <use href="./images/icons.svg#icon-antenna"></use>
+                        <use href="./images/icons.svg#icon-hamburger"></use>
                     </svg>
+                    </button>
                 </menu>      
             </div>
         
@@ -415,6 +419,7 @@
                 </div>
             </div>
         </footer>
+
     <div class="modal-div is-hidden" data-modal>
         <div class="modal-window-div modal-window-div-container">
             <button class="modal-close-button" type="button" data-modal-close>
@@ -471,6 +476,76 @@
 
         </div>
     </div>
+
+    <div class="js-menu-container menu-container-a" id="mobile-menu">
+        <div class="hamburger-div">
+            <div class="div-hamburger-button">
+            <button class="js-close-menu modal-close-button">
+                <svg class="modal-svg" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
+            </button> 
+            </div>
+
+            <nav class="">
+                <ul class="no-dot hamburger-nav-container">
+                        <li><a class="hamburger-nav-font link link-bar" href='./index.html' >Studio</a></li>
+                        <li><a class="hamburger-nav-font link" href='./portfolio.html' >Portfolio</a></li>
+                        <li><a class="hamburger-nav-font link" href='' >Contacts</a></li>  
+                </ul>
+            </nav>
+
+            <address class="hamburger-adress">
+                <ul class="no-dot hamburger-adress-ul">
+                    <li><a class= "hamburger-phone" href="tel:+110001111111" >+11 (000) 111-11-11</a></li>
+                    <li><a class= "hamburger-info" href="mailto:info@devstudio.com" >info@devstudio.com</a></li>
+                    
+                </ul>
+            </address>
+            
+
+    
+            <ul class="hamburger-icons no-dot">
+                <li class="section-four-list-point">
+                    <a class="section-four-link button-transition" href="">
+                        <svg class="section-four-svg" width="16" height="16"> 
+                            <use href="./images/icons.svg#icon-instagram">
+                            </use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="section-four-list-point">
+                    <a class="section-four-link button-transition" href="">
+                        <svg class="section-four-svg" width="16" height="16">
+                            <use href="./images/icons.svg#icon-twitter">
+                            </use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="section-four-list-point">
+                    <a class="section-four-link  button-transition" href="">
+                        <svg class="section-four-svg" width="16" height="16">
+                            <use href="./images/icons.svg#icon-facebook">
+                            </use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="section-four-list-point ">
+                    <a class="section-four-link button-transition" href="">
+                        <svg class="section-four-svg" width="16" height="16">
+                            <use href="./images/icons.svg#icon-linkedin">
+                            </use>
+                        </svg>
+                    </a>
+                </li>   
+            </ul>                                
+            
+        </div>  
+    </div>
+   
+
+
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
