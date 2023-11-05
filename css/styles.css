@@ -345,6 +345,28 @@ h1, h2, h3, h4, h5, h6, p, a {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
+ .list:hover {
+     color: var(--link-color);
+ }
+
+ .list:focus {
+     color: var(--link-color);
+ }
+
+ .adress:hover {
+     color: var(--link-color);
+ }
+
+ .adress:focus {
+     color: var(--link-color);
+ }
+
+ .section-five-link-container:hover,
+ .section-five-link-container:focus {
+     border-color: #404bbf;
+     color: #404bbf;
+ }
+
 
 
 @media screen and (min-width: 320px) {
