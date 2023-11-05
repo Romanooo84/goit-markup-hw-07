@@ -1234,7 +1234,7 @@ menu{
    .section-five-flex {
        display: flex;
        flex-direction: column;
-        margin-left: 108px;
+       margin:0 auto;
    }
 
    .customers-container{
@@ -1277,7 +1277,7 @@ menu{
  }
 
 .footer-container {
-padding-left: 108px;
+
 }
 
 .main-div-footer {
@@ -1286,7 +1286,7 @@ padding-left: 108px;
         align-items: center;
         flex-direction: row;
         padding-top:72px;
-        margin-left: 108px;
+        padding-left: 108px;
 }
 
 .second-studio {
