@@ -783,7 +783,9 @@ menu{
 
 .footer-input{
     gap: 24px;
-    width: 398px;
+    max-width: 398px;
+    min-width: 320px;
+    width: calc(100vw - 10vw);
     height: 40px;
     border: 1px solid #ffffff;
     background-color: transparent;
@@ -1609,6 +1611,7 @@ menu{
     
     .adress-container{
         display: flex;
+        gap: 40px;
     }
     
     .nav-container{
