@@ -972,9 +972,8 @@ menu{
 
 .hamburger-icons{
     display: flex;
-    justify-content: space-between;
-    margin-top: 48px;
-    margin: 40px;
+    margin: 40px 0;
+    justify-content: space-evenly;
 }
 
 }
